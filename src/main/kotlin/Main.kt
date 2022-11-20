@@ -12,4 +12,10 @@ fun main(args: Array<String>) {
 
     print("Введите шаг: ")
     val u = reader.nextDouble()
+
+    while (x1 <= x2) {
+        val y = -0.23 * x1 * x1 + x1
+        println("$x1 -> $y")
+        x1 += u
+    }
 }
